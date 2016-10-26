@@ -1,0 +1,101 @@
+body
+{
+    background-image: url(http://luxfon.com/images/201203/luxfon.com_6706.jpg);
+}
+
+.header
+{
+
+ height: 10%;
+ width: 100%;
+    text-align: justify;
+}
+
+.menu
+{
+
+
+ min-height: 50%;
+ width: 70%;
+float: left;
+      text-align: justify;
+
+}
+
+.content
+{
+
+ min-height: 30%;
+ width: 100%;
+float: left;
+      text-align: justify;
+
+}
+
+.logo
+{
+
+ min-height: 35%;
+ width: 30%;
+ float: right;
+text-align: center;
+      text-align: justify;
+   
+
+    
+}
+ul
+{
+    list-style-type: inherit;
+    padding: 30px;
+    margin-left: 40px;
+}
+
+.footer
+{
+
+ 
+ height: 5%;
+ width: 100%;
+float: left;
+    text-align: center;
+    padding: 10px;
+}
+h1
+{
+    font-size: 36px;
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 40 px;
+    
+}
+h2, li
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+p
+{
+    font-size: 16px;
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+p::first-letter
+{
+    font-weight: bold;
+    color: maroon;
+}
+img
+{
+    white-space: normal;
+    margin: 10px;
+    border-width: thin;
+    border-style: double;
+    border-color: orange;
+    min-width: 20%; 
+    min-height: 80%; 
+    max-width: 30%; 
+    max-height: 30%; 
+}
