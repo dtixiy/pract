@@ -1,0 +1,53 @@
+.clear 
+{ 
+clear: both; 
+}
+
+caption
+{
+    font-weight: bold;
+}
+
+.tablica1 table
+{
+    width: 700px;
+    float: left;
+}
+
+.tablica2 table
+{
+    width: 100%;
+}
+
+.tablica3 table
+{
+    width: 600px;
+    float: right;
+}
+
+.tablica3 td
+{
+    width: 200px;
+}
+
+.tablica4 table
+{
+    width: 300px;
+    height: 50px;
+    float: left;	
+    background: #ffdb8b;
+    border-spacing: 10px;
+}
+
+.tablica5 table
+{
+    width: 650px;
+    margin: 0px auto;
+    border-spacing: 0px;
+    
+}
+
+.tablica5 td
+{
+    height: 40px;
+}

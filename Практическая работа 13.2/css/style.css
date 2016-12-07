@@ -1,0 +1,217 @@
+@import "http://webfonts.ru/import/americantext.css"; /*font-family: 'American TextC';*/
+@import "http://webfonts.ru/import/bukhariscript.css"; /*font-family: 'Bukhari Script';*/
+
+@import "http://webfonts.ru/import/leokadia.css"; /*font-family: 'Leokadia Deco';*/
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+}
+
+.content{padding-top: 80px; }
+
+.fon_header{
+	width: auto;
+	background-color: #333F45;
+    
+}
+
+.header_content{
+	height: 80px;
+}
+
+.nav {
+    position: relative;
+    display: block;
+    float: left;
+    list-style: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header_spisok{
+	float: left;
+}
+
+.header_spisok ul{
+	list-style-type: none;
+	margin-top: 30px;
+	padding-left: 0;
+    font-size: 30px;
+}
+
+.header_spisok li{
+	display: inline;
+	margin-right: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 3px solid #212121;
+}
+.header_spisok a{
+	text-decoration: none;
+    color: #9FAE5A;
+}
+.header_spisok a:hover
+{
+    color: #71ba02;
+}
+.poick
+{
+    float: right;
+}
+
+.tablishapoick{
+    font-family: 'Fjalla One', sans-serif;
+    height: 36px;
+    background: #3d4b52;
+    color: #cd853f;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navbar-search{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.zagolovok {
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 45px;
+    font-family: "segoe print";
+    text-align: center;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 30px;
+    font-family: "segoe print";
+}
+
+.knopka {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #868480;
+    background: white;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 25px;
+}
+a
+{
+    text-decoration: none;
+}
+.telo-image
+{
+    margin-top: -130px;
+}
+.zag{
+    height: 80px;
+    clear: both;
+}
+
+.shifr p
+{
+    font-size: 38px;
+    float: left;
+    margin-top: 140px;
+    width: 40%;
+    font-family: 'American TextC';
+}
+.forma
+{
+    width: 700px;
+    min-height: 150px;
+    float: right;
+    margin-top: 80px;
+}
+.knopkashifra
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #868480;
+    background: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 25px;
+    float: right;
+    margin-top: 50px;
+    margin-left: -80px;
+}
+.otvet p
+{
+    margin-top: 230px;
+    font-family: 'American TextC';
+    font-size: 50px;
+}
+
+.bullet {
+margin-left: 300px;
+list-style: none;
+counter-reset: li;
+width: 380px;
+font-size: 30px;
+}
+.bullet li {
+position: relative;
+margin-bottom: 1.5em;
+border: 3px solid green;
+padding: 0.6em;
+border-radius: 15px;
+background: #FEFEFE;
+font-family: "Trebuchet MS", "Lucida Sans";
+}
+
+.bullet li:before {
+position: absolute;
+top: -0.7em;
+padding-left: 0.4em;
+padding-right: 0.4em;
+font-size: 20px;
+font-weight: bold;
+color: #DCC24B;
+background: black;
+border-radius: 50%;
+counter-increment: li;
+content: counter(li);
+}
+.bullet a:link 
+{
+	color: #0ACF00;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+.bullet a:hover 
+{
+	color: #ff0033;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.bullet a:visited 
+{
+	color: #052A6E; font-weight: 100;text-decoration: none;
+}
